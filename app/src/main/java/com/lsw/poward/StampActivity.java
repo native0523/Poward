@@ -141,15 +141,6 @@ public class StampActivity extends AppCompatActivity {
         db.close();
 
 
-        //액티비티가 보여질때마다 매번 상태체크
-//        if(getId == null & !(getId.equals(id))) {
-//            tvGiverName.setText("로그인하세요");
-//            initStamp();
-//        } if (getId.equals(id)){
-//            tvGiverName.setText(id + " 님");
-//            loadStamp();
-//        }
-
         //로그인했다면...
         if(id.equals("")) {
             tvGiverName.setText("로그인하세요");
