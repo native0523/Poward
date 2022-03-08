@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="errandItem">
+        <item>선택하세요</item>
+        <item>포도 (스탬프 1개)</item>
+        <item>샤인머스캣 (스탬프 2개)</item>
+        <item>레드로망 (스탬프 3개)</item>
+    </string-array>
+</resources>

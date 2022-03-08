@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF3DD"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/errand_titlebox">
+
+        <FrameLayout
+            android:id="@+id/frameBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp">
+
+            <Button
+                android:id="@+id/btnLock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/lock"
+                android:backgroundTint="#333"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnUnlock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/unlock"
+                android:backgroundTint="#333"
+                android:textOff=""
+                android:textOn=""
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/ibGoToStamp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/btn_selector_stamp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <TextView
+            android:id="@+id/errandTitle"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="2dp"
+            android:background="#FAF3DD"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="심부름을 협의하세요"
+            android:textColor="#5e6472"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvGiverName"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/errandTitle"
+            android:layout_alignLeft="@+id/errandTitle"
+            android:gravity="center"
+            android:textColor="#5e6472"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="8.2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:elevation="7dp"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvErrrand"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/errand_contentbox"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="내용"
+                    android:textColor="#5e6472"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvReward"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="보상"
+                    android:textColor="#5e6472"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvUntilTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/errand_contentbox"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="기한"
+                    android:textColor="#5e6472"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etErrand"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#5e6472"
+                    android:ems="10"
+                    android:fontFamily="sans-serif"
+                    android:hint="내용을 입력하세요"
+                    android:inputType="textPersonName"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="45dp"
+                    android:textColor="#5e6472"
+                    android:textColorHint="#5e6472"
+                    android:textSize="18sp"
+                    android:background="@drawable/errand_contentbox"/>
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#5e6472"
+                    android:background="@null"
+                    android:overlapAnchor="false"
+                    android:spinnerMode="dropdown"
+                    tools:ignore="SpeakableTextPresentCheck"></Spinner>
+
+                <EditText
+                    android:id="@+id/tvUntilCont"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/errand_contentbox"
+                    android:ems="10"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="45dp"
+                    android:textColor="#5e6472"
+                    android:textColorHint="#5e6472"
+                    android:backgroundTint="#5e6472"
+                    android:hint="기한을 입력하세요"
+                    android:textSize="18sp"
+                    tools:ignore="SpeakableTextPresentCheck" >
+                </EditText>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_ripple"
+                    android:fontFamily="sans-serif"
+                    android:text="시작"
+                    android:textColor="#FAF3DD"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="48dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:gravity="right"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnStop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_ripple"
+                    android:fontFamily="sans-serif"
+                    android:text="취소"
+                    android:textColor="#FAF3DD"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCountDown"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="카운트다운"
+            android:textColor="#5e6472"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#aaa"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="광고배너"
+            android:textAlignment="center"
+            android:textColor="#5e6472"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/drawable-v24/baseline_add_box_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22083333333333333" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/drawable/baseline_add_box_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.25462962962962965" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22083333333333333" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/layout/activity_grape.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/layout/activity_plan.xml" value="0.5" />
+        <entry key="..\:/Program Files/Android/android/DoForReward/app/src/main/res/layout/activity_stack.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/drawable/errand_box.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/drawable/errand_box_inline.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/drawable/errand_box_outline.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/drawable/spinner_row.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/drawable/ss.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/font/font_songmyung.xml" value="0.3963541666666667" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/font/font_songmyung_r.xml" value="0.3963541666666667" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_agree.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_dialog.xml" value="0.3619791666666667" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_dialog_allstamp.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_dialog_onestamp.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_errand.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_errand2.xml" value="0.33" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_errand_pending.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_grape.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_intro.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/activity_stack.xml" value="0.1984375" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/layout_customlayout.xml" value="0.20625" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/layout_listitem.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/list_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/listview_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/registration_activity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/row_spinner.xml" value="0.20625" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/spinner_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/spinner_row.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/android/GiveMeAJob/app/src/main/res/layout/update_activity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/btn_press.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/btn_ripple.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/btn_selector.xml" value="0.22314814814814815" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/btn_selector_handshake.xml" value="0.2015625" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/btn_selector_login.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/btn_selector_stamp.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/common_btn.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/errand_box.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/errand_box_outline.xml" value="0.2490740740740741" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/errandbox.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/errrand_contentbox_inline.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/errrand_contentbox_outline.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/grapebutton.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/spinner_bottom.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/spinnerdialog.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/style_btn.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/titlebox.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/drawable/www.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/font/font_songmyung_r.xml" value="0.3963541666666667" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_AlertToLogin.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_dialog_allstamp.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_errand.xml" value="0.5" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_errand111.xml" value="0.33" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_errand_pending.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_grape.xml" value="0.33" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_intro.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_join.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_login_enroll.xml" value="0.20677083333333332" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_stack.xml" value="0.33" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/activity_userconfirm.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/errand_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/layout_listitem.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/spinner_row.xml" value="0.38105263157894737" />
+        <entry key="..\:/Program Files/Android/android/Podo/app/src/main/res/layout/sub_menu_spinner_row.xml" value="0.1" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/drawable/errand_contentbox.xml" value="0.3026041666666667" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/drawable/errand_contentbox_top_bottom.xml" value="0.3026041666666667" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/drawable/errand_titlebox.xml" value="0.3026041666666667" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/drawable/stack_.xml" value="0.3026041666666667" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/drawable/stack_detailtitle.xml" value="0.38229166666666664" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/activity_alarm.xml" value="0.28888888888888886" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/activity_errand.xml" value="0.33055555555555555" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/activity_intro.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/activity_logout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/activity_stack.xml" value="0.25" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/activity_stamp.xml" value="0.3223958333333333" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/dialog_getallstamp.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/dialog_login_enroll.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/dialog_userconfirm.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/rewardstack_row.xml" value="0.33" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/spinner_row.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/stacktable.xml" value="0.36614583333333334" />
+        <entry key="..\:/Program Files/Android/android/poward/app/src/main/res/layout/sub.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/woo/.gradle/caches/transforms-3/46d15f5c58a469270eeba15db4463d05/transformed/appcompat-1.4.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.1296875" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/drawable/btn_forward_background.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/drawable/grapebutton.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_agree.xml" value="0.264" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_errand.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_grape.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_intro.xml" value="0.6" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_main2.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_plan.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/activity_stack.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/layout_customlayout.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/listview_layout.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/listvview_custom.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/layout/textcolor.xml" value="0.2265625" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/mipmap-anydpi-v26/btn_forward.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/mipmap-anydpi-v26/btn_forward_round.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/GiveMeAJob/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/btn_ripple.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/btn_selector.xml" value="0.1" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/btn_selector_contract.xml" value="0.1" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/btn_selector_handshake.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/btn_selector_login.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/btn_selector_stack.xml" value="0.1" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/btn_selector_stamp.xml" value="0.2175925925925926" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/common_btn.xml" value="0.1" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/errand_box_inline.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/errand_box_outline.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/errrand_contentbox_inline.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/errrand_contentbox_surface.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/errrand_contentbox_top_bottom.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/test.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/titlebox.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/drawable/www.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_dialog_allstamp.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_dialog_onestamp.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_errand.xml" value="0.3097928436911488" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_errand_pending.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_grape.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_intro.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_join.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_login.xml" value="0.6" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_login_enroll.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_stack.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_test.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_userconfirm.xml" value="0.264" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/activity_userconfirm1.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/layout_listitem.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/Podo/app/src/main/res/layout/spinner_row.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/aa.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/btn_ripple.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/btn_selector_stamp.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/errand_contentbox.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/errand_titlebox.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/errrand_contentbox_top_bottom.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/spinner_bottom.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/stack_detailtitle.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/titlebox.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_dialog_allstamp.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_errand.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_intro.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_listview.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_stack.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_stamp.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_userconfirm.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_getallstamp.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_login_enroll.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_userconfirm.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/item.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/rewardstack_row.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/spinner_row.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/stack_row.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/sub.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

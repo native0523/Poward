@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#FAF3DD">
+
+    <ImageView
+        android:id="@+id/spinner_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="center">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/spinner_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_toEndOf="@id/spinner_image"
+        android:fontFamily="sans-serif"
+        android:gravity="right|center_vertical"
+        android:paddingRight="45dp"
+        android:text="보상종류"
+        android:textColor="#5e6472"
+        android:textSize="18sp"></TextView>
+</LinearLayout>

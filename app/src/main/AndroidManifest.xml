@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lsw.poward">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.lsw.poward.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lsw.poward.ErrandActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lsw.poward.StampActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lsw.poward.StackActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lsw.poward.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lsw.poward.ListViewActivity"
+            android:exported="true" />
+
+
+        <activity
+            android:name="com.lsw.poward.AlarmActivity"
+            android:exported="true" />
+        <receiver android:name=".Alarm_Receiver" />
+        <service
+            android:name=".RingtonePlayingService"
+            android:enabled="true"></service>
+
+    </application>
+</manifest>

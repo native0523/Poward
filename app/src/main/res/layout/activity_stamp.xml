@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF3DD"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="10">
+
+
+    <RelativeLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/errand_titlebox">
+
+        <Button
+            android:id="@+id/ibGoToErrand"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/btn_selector_handshake"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/ibGoToStack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/btn_selector_stack"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/errandTitle"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="2dp"
+            android:background="#FAF3DD"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="스탬프를 획득하세요"
+            android:textColor="#5e6472"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvGiverName"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/errandTitle"
+            android:layout_alignLeft="@+id/errandTitle"
+            android:gravity="center"
+            android:textColor="#5e6472"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="8.2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grapesheet"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.95"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/extraTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnNewSheet"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/btn_ripple"
+                        android:fontFamily="sans-serif"
+                        android:text="리셋"
+                        android:textColor="#FAF3DD"
+                        android:textSize="18sp"></Button>
+                </RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/floor1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center">
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn1"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn2"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textStyle="italic"
+                        android:textOff="@null"
+                        android:textOn="@null" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn3"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn4"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/floor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center">
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn5"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn6"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn7"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn8"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn9"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/floor3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center">
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn10"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn11"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn12"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn13"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn14"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn15"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/floor4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:gravity="center">
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn16"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn17"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn18"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn19"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn20"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/floor5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:gravity="center">
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn21"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn22"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn23"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn24"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/floor6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.4"
+                    android:gravity="center">
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn25"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn26"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn27"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/floor7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:gravity="center">
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn28"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn29"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/floor8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.6"
+                    android:gravity="center">
+
+                    <ToggleButton
+                        android:id="@+id/tgbtn30"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textOff="@null"
+                        android:textOn="@null"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/extraBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:background="#aaa">
+
+
+        <TextView
+            android:id="@+id/tvErrrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="광고배너"
+            android:textAlignment="center"
+            android:textColor="#5e6472"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
