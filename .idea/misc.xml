@@ -163,13 +163,13 @@
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/stack_detailtitle.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/titlebox.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_dialog_allstamp.xml" value="0.536" />
-        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_errand.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_errand.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_intro.xml" value="0.4" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_listview.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_stack.xml" value="0.4" />
-        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_stamp.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_stack.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_stamp.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_userconfirm.xml" value="0.536" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_getallstamp.xml" value="0.536" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_login_enroll.xml" value="0.536" />
@@ -177,7 +177,7 @@
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/item.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/rewardstack_row.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/spinner_row.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/stack_row.xml" value="0.4" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/stack_row.xml" value="0.1" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/sub.xml" value="0.4" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

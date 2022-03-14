@@ -6,16 +6,15 @@
     android:layout_height="match_parent"
     android:background="#FAF3DD"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:weightSum="10">
-
+    android:padding="16dp">
 
     <RelativeLayout
         android:id="@+id/ll2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/errand_titlebox">
+        android:background="@drawable/errand_titlebox"
+        android:layout_marginBottom="16dp">
 
         <Button
             android:id="@+id/ibGoToErrand"
@@ -66,7 +65,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:layout_weight="8.2"
         android:orientation="vertical">
@@ -519,18 +517,17 @@
         android:layout_weight="0.8"
         android:orientation="horizontal"
         android:background="#aaa">
-
-
         <TextView
-            android:id="@+id/tvErrrand"
+            android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="sans-serif-medium"
+            android:fontFamily="sans-serif"
             android:text="광고배너"
             android:textAlignment="center"
             android:textColor="#5e6472"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:gravity="center" />
     </LinearLayout>
 
 </LinearLayout>
