@@ -37,10 +37,9 @@ public class StampActivity extends AppCompatActivity {
     //boolean타입 쓰고 싶었지만, Cursor에서 boolean타입으로 반환하는 메소드가 없어서 쓸수가 없다.
     String stampState[] = new String[30];
 
-    //스탬프 찍을때마다 1씩 증가하여 30이 되면 다이얼로그 호출
+    //스탬프 찍을때마다 1씩 증가하여 30이 되면 완성 다이얼로그 호출
     //stampCount를 증가시키더라도 앱이 다시 켜지면 다시 0으로 초기화되기 때문에 디비 사용 필수
     int stampCount = 0;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,41 +55,42 @@ public class StampActivity extends AppCompatActivity {
                 1); // 버전 번호
 
 
-        tgbtn1 = findViewById(R.id.tgbtn1);
-        tgbtn2 = findViewById(R.id.tgbtn2);
-        tgbtn3 = findViewById(R.id.tgbtn3);
-        tgbtn4 = findViewById(R.id.tgbtn4);
-        tgbtn5 = findViewById(R.id.tgbtn5);
-        tgbtn6 = findViewById(R.id.tgbtn6);
-        tgbtn7 = findViewById(R.id.tgbtn7);
-        tgbtn8 = findViewById(R.id.tgbtn8);
-        tgbtn9 = findViewById(R.id.tgbtn9);
-        tgbtn10 = findViewById(R.id.tgbtn10);
-        tgbtn11 = findViewById(R.id.tgbtn11);
-        tgbtn12 = findViewById(R.id.tgbtn12);
-        tgbtn13 = findViewById(R.id.tgbtn13);
-        tgbtn14 = findViewById(R.id.tgbtn14);
-        tgbtn15 = findViewById(R.id.tgbtn15);
-        tgbtn16 = findViewById(R.id.tgbtn16);
-        tgbtn17 = findViewById(R.id.tgbtn17);
-        tgbtn18 = findViewById(R.id.tgbtn18);
-        tgbtn19 = findViewById(R.id.tgbtn19);
-        tgbtn20 = findViewById(R.id.tgbtn20);
-        tgbtn21 = findViewById(R.id.tgbtn21);
-        tgbtn22 = findViewById(R.id.tgbtn22);
-        tgbtn23 = findViewById(R.id.tgbtn23);
-        tgbtn24 = findViewById(R.id.tgbtn24);
-        tgbtn25 = findViewById(R.id.tgbtn25);
-        tgbtn26 = findViewById(R.id.tgbtn26);
-        tgbtn27 = findViewById(R.id.tgbtn27);
-        tgbtn28 = findViewById(R.id.tgbtn28);
-        tgbtn29 = findViewById(R.id.tgbtn29);
-        tgbtn30 = findViewById(R.id.tgbtn30);
-        ibBackToErrand = findViewById(R.id.ibGoToErrand);
-        ibGoToStack = findViewById(R.id.ibGoToStack);
-        btnNewSheet = findViewById(R.id.btnNewSheet);
-        tvGiverName = findViewById(R.id.tvGiverName);
+       tgbtn1 = findViewById(R.id.tgbtn1);
+       tgbtn2 = findViewById(R.id.tgbtn2);
+       tgbtn3 = findViewById(R.id.tgbtn3);
+       tgbtn4 = findViewById(R.id.tgbtn4);
+       tgbtn5 = findViewById(R.id.tgbtn5);
+       tgbtn6 = findViewById(R.id.tgbtn6);
+       tgbtn7 = findViewById(R.id.tgbtn7);
+       tgbtn8 = findViewById(R.id.tgbtn8);
+       tgbtn9 = findViewById(R.id.tgbtn9);
+       tgbtn10 = findViewById(R.id.tgbtn10);
+       tgbtn11 = findViewById(R.id.tgbtn11);
+       tgbtn12 = findViewById(R.id.tgbtn12);
+       tgbtn13 = findViewById(R.id.tgbtn13);
+       tgbtn14 = findViewById(R.id.tgbtn14);
+       tgbtn15 = findViewById(R.id.tgbtn15);
+       tgbtn16 = findViewById(R.id.tgbtn16);
+       tgbtn17 = findViewById(R.id.tgbtn17);
+       tgbtn18 = findViewById(R.id.tgbtn18);
+       tgbtn19 = findViewById(R.id.tgbtn19);
+       tgbtn20 = findViewById(R.id.tgbtn20);
+       tgbtn21 = findViewById(R.id.tgbtn21);
+       tgbtn22 = findViewById(R.id.tgbtn22);
+       tgbtn23 = findViewById(R.id.tgbtn23);
+       tgbtn24 = findViewById(R.id.tgbtn24);
+       tgbtn25 = findViewById(R.id.tgbtn25);
+       tgbtn26 = findViewById(R.id.tgbtn26);
+       tgbtn27 = findViewById(R.id.tgbtn27);
+       tgbtn28 = findViewById(R.id.tgbtn28);
+       tgbtn29 = findViewById(R.id.tgbtn29);
+       tgbtn30 = findViewById(R.id.tgbtn30);
+       ibBackToErrand = findViewById(R.id.ibGoToErrand);
+       ibGoToStack = findViewById(R.id.ibGoToStack);
+       btnNewSheet = findViewById(R.id.btnNewSheet);
+       tvGiverName = findViewById(R.id.tvGiverName);
 
+       //버튼 이벤트
        tgbtn1.setOnClickListener(myClick);
        tgbtn2.setOnClickListener(myClick);
        tgbtn3.setOnClickListener(myClick);
@@ -121,44 +121,40 @@ public class StampActivity extends AppCompatActivity {
        tgbtn28.setOnClickListener(myClick);
        tgbtn29.setOnClickListener(myClick);
        tgbtn30.setOnClickListener(myClick);
+       ibBackToErrand.setOnClickListener(myClick);
+       ibGoToStack.setOnClickListener(myClick);
+       btnNewSheet.setOnClickListener(myClick);
 
 
-        //이벤트버튼
-        ibBackToErrand.setOnClickListener(myClick);
-        ibGoToStack.setOnClickListener(myClick);
-        btnNewSheet.setOnClickListener(myClick);
+       //로그인했다면...
+       if(id.equals("")) {
+           tvGiverName.setText("로그인하세요");
+       } else {
+           tvGiverName.setText(id + " 님");
+       }
 
 
-        // 테이블 초기화
-        db = helper.getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT * FROM stamp", null);
-        String getId = null;
-        while (c.moveToNext()) {
-            getId = c.getString(1);
-        }
+       db = helper.getReadableDatabase();
+       Cursor c = db.rawQuery("SELECT * FROM stamp WHERE id = '" + id + "'", null);
+       String getId = null;
+       while (c.moveToNext()) {
+           getId = c.getString(1);
+       }
+       c.close();
+       db.close();
 
-        c.close();
-        db.close();
-
-
-        //로그인했다면...
-        if(id.equals("")) {
-            tvGiverName.setText("로그인하세요");
-        } else {
-            tvGiverName.setText(id + " 님");
-        }
-
-        //디비정보가 있다면...
-        if(getId ==null | !(getId.equals(id))) {
-            initStamp();
-        }
-        else {
-            loadStamp();
-        }
-
+       //디비정보가 없다면 그 아이디의 스탬프지 만들기
+       if(getId == null ) {
+           initStamp();
+       }
+       //디비정보가 있다면 그 정보 불러오기
+       else if (getId.equals(id)){
+           loadStamp();
+       }
     }
 
 
+    //액티비티 실행때마다 저장된 스탬프 불러오기
     public void loadStamp() {
         db = helper.getReadableDatabase();
         Cursor c = db.rawQuery("SELECT * FROM stamp WHERE id='" + id + "'", null);
@@ -198,7 +194,7 @@ public class StampActivity extends AppCompatActivity {
         c.close();
         db.close();
 
-            //여기서는 if-if 여야만 된다 (if-else if의 경우, if가 참이면 다음 else if는 보지 않기 때문)
+            //if-if여야만 된다 (if-else if의 경우, if가 참이면 다음 else if는 보지 않기 때문)
             if (stampState[0].equals("1")) {
                 tgbtn1.setBackground(getDrawable(R.drawable.goodjob));
                 tgbtn1.setEnabled(false);
@@ -351,7 +347,7 @@ public class StampActivity extends AppCompatActivity {
             }
     }
 
-    //스탬프지 활성화
+    //아이디별 스탬프지 초기화
     public void initStamp() {
 
         db = helper.getWritableDatabase();
@@ -391,6 +387,7 @@ public class StampActivity extends AppCompatActivity {
         db.close();
     }
 
+    //로그인했을 경우에만 토글버튼 동작
     View.OnClickListener myClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -433,14 +430,14 @@ public class StampActivity extends AppCompatActivity {
                     startActivity(new Intent(StampActivity.this, StackActivity.class));
                     break;
                 case R.id.btnNewSheet:
-                    removeStamp();
-                    Log.d("btnNewSheet", "새로운 스탬프지");
-
+                    confirmNewSheet();
+//                    removeStamp();
+                    break;
             }
         }
     };
 
-//스탬프 저장
+    //스탬프 저장
     public void attachStamp(String num) {
 
         Animation ani = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.stamp_togglebtn);
@@ -449,223 +446,224 @@ public class StampActivity extends AppCompatActivity {
         ContentValues values = new ContentValues();
 
 
-            //여기서는 if-if, if - else if 모두 잘된다
-            if (num == "1") {
-                values.put("podo1", "1");
-                tgbtn1.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn1.setEnabled(false);
-                tgbtn1.startAnimation(ani);
-                stampState[0] = "1";
-                stampCount++;
-            } else if (num == "2") {
-                values.put("podo2", "1");
-                tgbtn2.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn2.setEnabled(false);
-                tgbtn2.startAnimation(ani);
-                stampState[1] = "1";
-                stampCount++;
-            } else if (num == "3") {
-                values.put("podo3", "1");
-                tgbtn3.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn3.setEnabled(false);
-                tgbtn3.startAnimation(ani);
-                stampState[2] = "1";
-                stampCount++;
-            } else if (num == "4") {
-                values.put("podo4", "1");
-                tgbtn4.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn4.setEnabled(false);
-                tgbtn4.startAnimation(ani);
-                stampState[3] = "1";
-                stampCount++;
-            } else if (num == "5") {
-                values.put("podo5", "1");
-                tgbtn5.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn5.setEnabled(false);
-                tgbtn5.startAnimation(ani);
-                stampState[4] = "1";
-                stampCount++;
-            } else if (num == "6") {
-                values.put("podo6", "1");
-                tgbtn6.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn6.setEnabled(false);
-                tgbtn6.startAnimation(ani);
-                stampState[5] = "1";
-                stampCount++;
-            } else if (num == "7") {
-                values.put("podo7", "1");
-                tgbtn7.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn7.setEnabled(false);
-                tgbtn7.startAnimation(ani);
-                stampState[6] = "1";
-                stampCount++;
-            } else if (num == "8") {
-                values.put("podo8", "1");
-                tgbtn8.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn8.setEnabled(false);
-                tgbtn8.startAnimation(ani);
-                stampState[7] = "1";
-                stampCount++;
-            } else if (num == "9") {
-                values.put("podo9", "1");
-                tgbtn9.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn9.setEnabled(false);
-                tgbtn9.startAnimation(ani);
-                stampState[8] = "1";
-                stampCount++;
-            } else if (num == "10") {
-                values.put("podo10", "1");
-                tgbtn10.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn10.setEnabled(false);
-                tgbtn10.startAnimation(ani);
-                stampState[9] = "1";
-                stampCount++;
-            } else if (num == "11") {
-                values.put("podo11", "1");
-                tgbtn11.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn11.setEnabled(false);
-                tgbtn11.startAnimation(ani);
-                stampState[10] = "1";
-                stampCount++;
-            } else if (num == "12") {
-                values.put("podo12", "1");
-                tgbtn12.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn12.setEnabled(false);
-                tgbtn12.startAnimation(ani);
-                stampState[11] = "1";
-                stampCount++;
-            } else if (num == "13") {
-                values.put("podo13", "1");
-                tgbtn13.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn13.setEnabled(false);
-                tgbtn13.startAnimation(ani);
-                stampState[12] = "1";
-                stampCount++;
-            } else if (num == "14") {
-                values.put("podo14", "1");
-                tgbtn14.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn14.setEnabled(false);
-                tgbtn14.startAnimation(ani);
-                stampState[13] = "1";
-                stampCount++;
-            } else if (num == "15") {
-                values.put("podo15", "1");
-                tgbtn15.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn15.setEnabled(false);
-                tgbtn15.startAnimation(ani);
-                stampState[14] = "1";
-                stampCount++;
-            } else if (num == "16") {
-                values.put("podo16", "1");
-                tgbtn16.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn16.setEnabled(false);
-                tgbtn16.startAnimation(ani);
-                stampState[15] = "1";
-                stampCount++;
-            } else if (num == "17") {
-                values.put("podo17", "1");
-                tgbtn17.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn17.setEnabled(false);
-                tgbtn17.startAnimation(ani);
-                stampState[16] = "1";
-                stampCount++;
-            } else if (num == "18") {
-                values.put("podo18", "1");
-                tgbtn18.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn18.setEnabled(false);
-                tgbtn18.startAnimation(ani);
-                stampState[17] = "1";
-                stampCount++;
-            } else if (num == "19") {
-                values.put("podo19", "1");
-                tgbtn19.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn19.setEnabled(false);
-                tgbtn19.startAnimation(ani);
-                stampState[18] = "1";
-                stampCount++;
-            } else if (num == "20") {
-                values.put("podo20", "1");
-                tgbtn20.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn20.setEnabled(false);
-                tgbtn20.startAnimation(ani);
-                stampState[19] = "1";
-                stampCount++;
-            } else if (num == "21") {
-                values.put("podo21", "1");
-                tgbtn21.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn21.setEnabled(false);
-                tgbtn21.startAnimation(ani);
-                stampState[20] = "1";
-                stampCount++;
-            } else if (num == "22") {
-                values.put("podo22", "1");
-                tgbtn22.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn22.setEnabled(false);
-                tgbtn22.startAnimation(ani);
-                stampState[21] = "1";
-                stampCount++;
-            } else if (num == "23") {
-                values.put("podo23", "1");
-                tgbtn23.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn23.setEnabled(false);
-                tgbtn23.startAnimation(ani);
-                stampState[22] = "1";
-                stampCount++;
-            } else if (num == "24") {
-                values.put("podo24", "1");
-                tgbtn24.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn24.setEnabled(false);
-                tgbtn24.startAnimation(ani);
-                stampState[23] = "1";
-                stampCount++;
-            } else if (num == "25") {
-                values.put("podo25", "1");
-                tgbtn25.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn25.setEnabled(false);
-                tgbtn25.startAnimation(ani);
-                stampState[24] = "1";
-                stampCount++;
-            } else if (num == "26") {
-                values.put("podo26", "1");
-                tgbtn26.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn26.setEnabled(false);
-                tgbtn26.startAnimation(ani);
-                stampState[25] = "1";
-                stampCount++;
-            } else if (num == "27") {
-                values.put("podo27", "1");
-                tgbtn27.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn27.setEnabled(false);
-                tgbtn27.startAnimation(ani);
-                stampState[26] = "1";
-                stampCount++;
-            } else if (num == "28") {
-                values.put("podo28", "1");
-                tgbtn28.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn28.setEnabled(false);
-                tgbtn28.startAnimation(ani);
-                stampState[27] = "1";
-                stampCount++;
-            } else if (num == "29") {
-                values.put("podo29", "1");
-                tgbtn29.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn29.setEnabled(false);
-                tgbtn29.startAnimation(ani);
-                stampState[28] = "1";
-                stampCount++;
-            } else if (num == "30") {
-                values.put("podo30", "1");
-                tgbtn30.setBackground(getDrawable(R.drawable.goodjob));
-                tgbtn30.setEnabled(false);
-                tgbtn30.startAnimation(ani);
-                stampState[29] = "1";
-                stampCount++;
-            }
-            db.update("stamp", values, "id='" + id + "'", null);
-            db.close();
+        //if-if, if - else if 모두 잘된다
+        if (num == "1") {
+            values.put("podo1", "1");
+            tgbtn1.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn1.setEnabled(false);
+            tgbtn1.startAnimation(ani);
+            stampState[0] = "1";
+            stampCount++;
+        } else if (num == "2") {
+            values.put("podo2", "1");
+            tgbtn2.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn2.setEnabled(false);
+            tgbtn2.startAnimation(ani);
+            stampState[1] = "1";
+            stampCount++;
+        } else if (num == "3") {
+            values.put("podo3", "1");
+            tgbtn3.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn3.setEnabled(false);
+            tgbtn3.startAnimation(ani);
+            stampState[2] = "1";
+            stampCount++;
+        } else if (num == "4") {
+            values.put("podo4", "1");
+            tgbtn4.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn4.setEnabled(false);
+            tgbtn4.startAnimation(ani);
+            stampState[3] = "1";
+            stampCount++;
+        } else if (num == "5") {
+            values.put("podo5", "1");
+            tgbtn5.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn5.setEnabled(false);
+            tgbtn5.startAnimation(ani);
+            stampState[4] = "1";
+            stampCount++;
+        } else if (num == "6") {
+            values.put("podo6", "1");
+            tgbtn6.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn6.setEnabled(false);
+            tgbtn6.startAnimation(ani);
+            stampState[5] = "1";
+            stampCount++;
+        } else if (num == "7") {
+            values.put("podo7", "1");
+            tgbtn7.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn7.setEnabled(false);
+            tgbtn7.startAnimation(ani);
+            stampState[6] = "1";
+            stampCount++;
+        } else if (num == "8") {
+            values.put("podo8", "1");
+            tgbtn8.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn8.setEnabled(false);
+            tgbtn8.startAnimation(ani);
+            stampState[7] = "1";
+            stampCount++;
+        } else if (num == "9") {
+            values.put("podo9", "1");
+            tgbtn9.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn9.setEnabled(false);
+            tgbtn9.startAnimation(ani);
+            stampState[8] = "1";
+            stampCount++;
+        } else if (num == "10") {
+            values.put("podo10", "1");
+            tgbtn10.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn10.setEnabled(false);
+            tgbtn10.startAnimation(ani);
+            stampState[9] = "1";
+            stampCount++;
+        } else if (num == "11") {
+            values.put("podo11", "1");
+            tgbtn11.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn11.setEnabled(false);
+            tgbtn11.startAnimation(ani);
+            stampState[10] = "1";
+            stampCount++;
+        } else if (num == "12") {
+            values.put("podo12", "1");
+            tgbtn12.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn12.setEnabled(false);
+            tgbtn12.startAnimation(ani);
+            stampState[11] = "1";
+            stampCount++;
+        } else if (num == "13") {
+            values.put("podo13", "1");
+            tgbtn13.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn13.setEnabled(false);
+            tgbtn13.startAnimation(ani);
+            stampState[12] = "1";
+            stampCount++;
+        } else if (num == "14") {
+            values.put("podo14", "1");
+            tgbtn14.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn14.setEnabled(false);
+            tgbtn14.startAnimation(ani);
+            stampState[13] = "1";
+            stampCount++;
+        } else if (num == "15") {
+            values.put("podo15", "1");
+            tgbtn15.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn15.setEnabled(false);
+            tgbtn15.startAnimation(ani);
+            stampState[14] = "1";
+            stampCount++;
+        } else if (num == "16") {
+            values.put("podo16", "1");
+            tgbtn16.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn16.setEnabled(false);
+            tgbtn16.startAnimation(ani);
+            stampState[15] = "1";
+            stampCount++;
+        } else if (num == "17") {
+            values.put("podo17", "1");
+            tgbtn17.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn17.setEnabled(false);
+            tgbtn17.startAnimation(ani);
+            stampState[16] = "1";
+            stampCount++;
+        } else if (num == "18") {
+            values.put("podo18", "1");
+            tgbtn18.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn18.setEnabled(false);
+            tgbtn18.startAnimation(ani);
+            stampState[17] = "1";
+            stampCount++;
+        } else if (num == "19") {
+            values.put("podo19", "1");
+            tgbtn19.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn19.setEnabled(false);
+            tgbtn19.startAnimation(ani);
+            stampState[18] = "1";
+            stampCount++;
+        } else if (num == "20") {
+            values.put("podo20", "1");
+            tgbtn20.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn20.setEnabled(false);
+            tgbtn20.startAnimation(ani);
+            stampState[19] = "1";
+            stampCount++;
+        } else if (num == "21") {
+            values.put("podo21", "1");
+            tgbtn21.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn21.setEnabled(false);
+            tgbtn21.startAnimation(ani);
+            stampState[20] = "1";
+            stampCount++;
+        } else if (num == "22") {
+            values.put("podo22", "1");
+            tgbtn22.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn22.setEnabled(false);
+            tgbtn22.startAnimation(ani);
+            stampState[21] = "1";
+            stampCount++;
+        } else if (num == "23") {
+            values.put("podo23", "1");
+            tgbtn23.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn23.setEnabled(false);
+            tgbtn23.startAnimation(ani);
+            stampState[22] = "1";
+            stampCount++;
+        } else if (num == "24") {
+            values.put("podo24", "1");
+            tgbtn24.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn24.setEnabled(false);
+            tgbtn24.startAnimation(ani);
+            stampState[23] = "1";
+            stampCount++;
+        } else if (num == "25") {
+            values.put("podo25", "1");
+            tgbtn25.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn25.setEnabled(false);
+            tgbtn25.startAnimation(ani);
+            stampState[24] = "1";
+            stampCount++;
+        } else if (num == "26") {
+            values.put("podo26", "1");
+            tgbtn26.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn26.setEnabled(false);
+            tgbtn26.startAnimation(ani);
+            stampState[25] = "1";
+            stampCount++;
+        } else if (num == "27") {
+            values.put("podo27", "1");
+            tgbtn27.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn27.setEnabled(false);
+            tgbtn27.startAnimation(ani);
+            stampState[26] = "1";
+            stampCount++;
+        } else if (num == "28") {
+            values.put("podo28", "1");
+            tgbtn28.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn28.setEnabled(false);
+            tgbtn28.startAnimation(ani);
+            stampState[27] = "1";
+            stampCount++;
+        } else if (num == "29") {
+            values.put("podo29", "1");
+            tgbtn29.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn29.setEnabled(false);
+            tgbtn29.startAnimation(ani);
+            stampState[28] = "1";
+            stampCount++;
+        } else if (num == "30") {
+            values.put("podo30", "1");
+            tgbtn30.setBackground(getDrawable(R.drawable.goodjob));
+            tgbtn30.setEnabled(false);
+            tgbtn30.startAnimation(ani);
+            stampState[29] = "1";
+            stampCount++;
+        }
+        db.update("stamp", values, "id='" + id + "'", null);
+        db.close();
 
     }
 
+    //스탬프 제거(스탬프지 재사용)
     public void removeStamp() {
 
         //테이블 값 0에서 1로 전환
@@ -708,10 +706,11 @@ public class StampActivity extends AppCompatActivity {
         db.close();
     }
 
+    //비밀번호 재확인으로 조작 방지
     public void LoginOrNot(String num) {
         Dialog dialog = new Dialog(StampActivity.this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setContentView(R.layout.dialog_userconfirm);
+        dialog.setContentView(R.layout.dialog_confirmuser);
         dialog.show();
 
         EditText etPwCont = (EditText) dialog.findViewById(R.id.etPwCont);
@@ -722,11 +721,23 @@ public class StampActivity extends AppCompatActivity {
         btnConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //변수 선언 시 적당히 몰아놓는게 보기좋은듯. 읽다가 선언이 자꾸 나오면 짜증나고, 문제 터졌을때 어디에서 선언했는지 찾아야하는 번거로움
+                String strPw = "";
+                String inputPw = "";
 
-                String inputPw = etPwCont.getText().toString().trim();
+                //디비에서 아이디와 일치하는 비밀번호 담기
+                db = ErrandActivity.helper.getReadableDatabase();
+                Cursor c = db.rawQuery("SELECT * FROM member WHERE id ='" + id + "'", null);
+                while (c.moveToNext()) {
+                    strPw = c.getString(2);
+                }
+                c.close();
+                db.close();
 
-                String qq ="q";
-                if(inputPw.equals(qq)) {
+                //사용자가 입력한 비밀번호 담기
+                inputPw = etPwCont.getText().toString().trim();
+
+                if(inputPw.equals(strPw)) {
                     Toast.makeText(StampActivity.this, "스탬프를 얻었어요!", Toast.LENGTH_SHORT).show();
                     Log.d("스탬프카운트", "1++");
                     dialog.dismiss();
@@ -751,7 +762,7 @@ public class StampActivity extends AppCompatActivity {
         });
     }
 
-
+    //스탬프 30개를 모두 모으면 완성을 알리는 다이얼로그 출력
     public void CompleteDialog() {
         Dialog dialog = new Dialog(StampActivity.this);                // Dialog 초기화
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);            // 타이틀 제거
@@ -772,25 +783,42 @@ public class StampActivity extends AppCompatActivity {
         });
     }
 
+    public void confirmNewSheet() {
+        Dialog dialog = new Dialog(StampActivity.this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.dialog_confirmnewsheet);
+
+        if (id.equals("")) {
+            Toast.makeText(StampActivity.this, "로그인을 먼저 해주세요", Toast.LENGTH_SHORT).show();
+        } else {
+            dialog.show();
+        }
+
+        Button btnCnfrmNewSheet = (Button) dialog.findViewById(R.id.btnCnfrmNewSheet);
+        Button btnCnclNewSheet = (Button) dialog.findViewById(R.id.btnCnclNewSheet);
+
+        btnCnfrmNewSheet.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (stampCount == 0) {
+                        Toast.makeText(StampActivity.this, "이미 스탬프지가 비어 있네요", Toast.LENGTH_SHORT).show();
+                } else{
+                    removeStamp();
+                    Toast.makeText(StampActivity.this, "스탬프지를 초기화했어요", Toast.LENGTH_SHORT).show();
+                    dialog.dismiss();
+                }
+            }
+        });
+        btnCnclNewSheet.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+    }
+
     @Override
     public void onBackPressed(){
         startActivity(new Intent(StampActivity.this, ErrandActivity.class));
     }
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-

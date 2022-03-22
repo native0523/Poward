@@ -162,6 +162,7 @@
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/spinner_bottom.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/stack_detailtitle.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/drawable/titlebox.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_addlistview.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_dialog_allstamp.xml" value="0.536" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_errand.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_intro.xml" value="0.4" />
@@ -173,6 +174,7 @@
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/activity_userconfirm.xml" value="0.536" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_getallstamp.xml" value="0.536" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_login_enroll.xml" value="0.536" />
+        <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_newsheetconfirm.xml" value="0.4" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/dialog_userconfirm.xml" value="0.4" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/item.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/woo/AndroidStudioProjects/poward/app/src/main/res/layout/rewardstack_row.xml" value="0.25364583333333335" />

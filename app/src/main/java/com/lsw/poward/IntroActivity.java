@@ -25,6 +25,7 @@ public class IntroActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
+        //키보드 때문에 화면이 찌그러지지 않도록 하기
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 
         imgAppLogo = (ImageView) findViewById(R.id.imgAppLogo);
@@ -36,6 +37,7 @@ public class IntroActivity extends AppCompatActivity {
         ani = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.intro_logo);
         imgAppLogo.startAnimation(ani);
 
+        //특정시간 뒤 화면 이동
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -48,12 +50,12 @@ public class IntroActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        //1번째 백버튼 클릭
+        //1번 백버튼 클릭
         if (System.currentTimeMillis() > backKeyPressedTime + 2000) {
             backKeyPressedTime = System.currentTimeMillis();
             Toast.makeText(IntroActivity.this, "뒤로가기 버튼을 한번 더 누르시면 앱이 종료됩니다.", Toast.LENGTH_LONG).show();
         }
-        //2번째 백버튼 클릭 (종료)
+        //2번 백버튼 클릭 (종료)
         else {
             AppFinish();
         }

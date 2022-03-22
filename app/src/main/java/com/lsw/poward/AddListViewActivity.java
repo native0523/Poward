@@ -1,23 +1,22 @@
 package com.lsw.poward;
 
 import android.os.Bundle;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class AddListViewActivity extends AppCompatActivity {
 
     Button add_layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_addlistview);
 
+        //버튼 클릭 시 리스트뷰 생성
         add_layout = findViewById(R.id.add_layout);
         add_layout.setOnClickListener(new View.OnClickListener() {
             @Override
